@@ -27,65 +27,43 @@ A API foi desenvolvida com Express e CORS para permitir acesso de outros domíni
 
 ## URLs públicas
 
-- Render (API): aguardando deploy manual no Render
-- Vercel (Front-end): aguardando deploy manual na Vercel
+- Render (API): https://projeto-express-iqa3.onrender.com/
+- Vercel (Front-end): https://front-end-projeto-express-5mg3rvkpl-rac11.vercel.app/
 
-> Não foram inventadas URLs públicas. Os links reais serão preenchidos quando os deploys forem concluídos no Render e na Vercel.
+
 
 ## Evidências
 
 ### 1) Código da API
 
-```js
-// inserir captura do arquivo api.js
-```
+
+![Imagem da API](./evidencias/api.png)
+
 
 ### 2) Resposta do endpoint `/data-hora`
 
 ```json
 {
   "data": "13/11/2026",
-  "hora": "16:29:08",
-  "dataHora": "2026-11-13T19:29:08.859Z"
+  "hora": "21:55:51",
+  "dataHora": "2026-11-13T21:55:51.667Z"
 }
 ```
 
 ### 3) Código do consumo no Front-end
 
-```js
-// inserir captura do arquivo script.js
-```
+![Imagem do Script](./evidencias/script.png)
 
 ### 4) Aplicação funcionando
 
 ![Aplicação funcionando](./evidencias/aplicacao-funcionando.png)
 
-> Inserir a captura real do front-end em funcionamento após o deploy local ou publicado.
 
 ### 5) Painel do Render
 
 ![Painel do Render](./evidencias/render-painel.png)
 
-> Inserir a imagem real do painel do Render com o serviço em funcionamento.
 
 ### 6) Painel da Vercel
 
 ![Painel da Vercel](./evidencias/vercel-painel.png)
-
-> Inserir a imagem real do painel da Vercel com o deploy do front-end.
-
-## Como inserir imagens no Markdown
-
-```md
-![Descrição da imagem](./evidencias/nome-da-imagem.png)
-```
-
-A pasta `evidencias/` pode ser criada para organizar as capturas reais do projeto, conforme necessário.
-
-## Pendências manuais
-
-- publicar a API no Render;
-- confirmar a URL pública do Render;
-- publicar o Front-end na Vercel;
-- confirmar a URL pública da Vercel;
-- incluir as imagens finais no documento de entrega.
